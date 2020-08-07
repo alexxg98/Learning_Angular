@@ -1,9 +1,10 @@
-<div *ngIf="messageService.messages.length">
+<div class="messageBox" *ngIf="messageService.messages.length">
+<hr>
 <!-- Display only if there is a message -->
 
   <h2>Messages</h2>
   <button class="clear"
           (click)="messageService.clear()">clear</button>
-  <div *ngFor='let message of messageService.messages'> {{message}} </div>
+  <div class="message" *ngFor='let message of messageService.messages'> {{message}} </div>
 
 </div>
