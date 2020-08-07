@@ -3,6 +3,11 @@
 
 This is a sample project from https://angular.io/tutorial - The Tour of Heroes that I am using to learn Angular.
 
+### My Changes
+
+* Some UI changes, such as placement of buttons, color, margins, etc.
+* Add delete button to hero-details page
+
 # TourOfHeroes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
